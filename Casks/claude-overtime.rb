@@ -17,8 +17,8 @@ cask "claude-overtime" do
   ]
 
   caveats <<~EOS
-    The app is ad-hoc signed. If you installed without --no-quarantine,
-    right-click the app -> Open on first launch.
+    On first launch macOS may warn about an unidentified developer:
+    right-click the app -> Open on first launch (it is ad-hoc signed).
 
     Lid-closed support installs a root helper from inside the app
     (one admin-password prompt). Remove everything with:
